@@ -1,0 +1,176 @@
+h6 {
+    color: 
+    hsl(158, 36%, 37%)
+    hsl(30, 38%, 92%)
+    hsl(212, 21%, 14%)
+    hsl(228, 12%, 48%)
+    hsl(0, 0%, 100%);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+display: flex;
+margin: 0;
+font-size: 14px;
+}
+
+.desk-img {
+    margin-right: 50px;
+}
+
+.mobile-img { 
+    display: none;
+}
+
+.perfume {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    opacity: 100%;
+    font-size: 23px;
+    margin: 8% 0 6%;
+    color: hsl(228, 12%, 48%);
+}
+
+.title {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 70px;
+    width: 60%;
+    margin-bottom: 7%;
+    line-height:1;
+
+}
+
+.par-1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    color: hsl(228, 12%, 48%);
+    line-height: 1.6;
+    width: 75%;
+    margin-bottom: 9%;
+    
+}
+
+
+.price-1  {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    color: hsl(158, 36%, 37%);
+    font-size: 65px;
+    margin-bottom: 10%;
+    display: inline-block;
+
+}
+
+.price-2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    display: inline-block; 
+    margin-left: 5%;
+    color: hsl(228, 12%, 48%);
+    position: relative;
+    bottom: 1.5%;
+    font-size: 25px;
+    text-decoration: line-through;
+
+}
+
+#add {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 23px;
+    padding: 3% 20% 3%;
+}
+
+i {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+/* phone screen */
+
+@media (max-width: 500px) {
+
+  #right-part {
+    padding-left: 20px;
+    padding-bottom: 30px;
+  }
+  body {
+    display: inline-block;
+  }
+    .desk-img {
+        display: none;
+    }
+
+    .mobile-img {
+        display: block;
+        width: 100%;
+    }
+    
+    .perfume {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        opacity: 100%;
+        font-size: 15px;
+        margin: 8% 0 6%;
+        color: hsl(228, 12%, 48%);
+    }
+    
+    .title {
+        font-family: 'Fraunces', serif;
+        font-weight: 700;
+        font-size: 35px;
+        width: 95%;
+        margin-bottom: 7%;
+        line-height:1;
+    
+    }
+    
+    .par-1 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+        color: hsl(228, 12%, 48%);
+        line-height: 1.6;
+        width: 75%;
+        margin-bottom: 9%;
+        
+    }
+    
+    
+    .price-1  {
+        font-family: 'Fraunces', serif;
+        font-weight: 700;
+        color: hsl(158, 36%, 37%);
+        font-size: 40px;
+        margin-bottom: 10%;
+        display: inline-block;
+    
+    }
+    
+    .price-2 {
+
+        position: relative;
+        font-size: 16px;
+        bottom: 7px;
+    
+    }
+    
+    #add {
+        display: block;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        padding: 3% 27% 3%;
+    }
+    
+    i {
+        font-size: 20px;
+        margin-right: 10px;
+        }
+}
